@@ -52,6 +52,12 @@ div.wb_af {
     }
 }
 
+.webring > section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .notice {
     background: #F0F7FF;
     padding: 0.5em 2em;

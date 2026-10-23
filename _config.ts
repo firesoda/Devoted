@@ -47,6 +47,7 @@ site.add("/scripts");
 site.add("elements.css");
 site.add("infinity-unbloom.png");
 site.add("infinity-bloom.png");
+site.add("sitebox100.png");
 
 site.add(
   "https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css",
