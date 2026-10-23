@@ -1,0 +1,17 @@
+<article>
+    <section class="info">
+        <div class="id_photo">
+            {{ set photo = id_photo }}
+            <img src="{{ photo.url }}" alt="{{ photo.alt }}" loading="lazy">
+        </div>
+        <h2>{{ heading }}</h2>
+        <table>
+            {{ for data of info }}
+            <tr>
+                <td>{{ data.label }}</td>
+                <td>{{ data.details |> md(true) }}</td>
+            </tr>
+            {{ /for }}
+        </table>
+    </section>
+</article>

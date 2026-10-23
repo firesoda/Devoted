@@ -1,0 +1,12 @@
+<nav>
+    {{ for navi of menu }}
+    <section>
+        <h3>{{ navi.title }}</h3>
+        <ol>
+            {{ for link of navi.item }}
+            <li><a href="{{ link.url }}">{{ link.label }}</a></li>
+            {{ /for }}
+        </ol>
+    </section>
+    {{ /for }}
+</nav>

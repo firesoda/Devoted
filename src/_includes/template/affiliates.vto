@@ -1,0 +1,43 @@
+<div class="wb_af">
+    <div class="webring">
+        <h2>Webrings</h2>
+        <section>
+            <div id="IDOLRING_WIDGET" style="zoom: 100%">
+                <link rel="stylesheet" href="https://idolring.nekoweb.org/idolring.css" />
+                <script src="https://idolring.nekoweb.org/scripts/deepblue.js"></script>
+                <script>
+                    <!--replace description with your own here-->
+                    document.getElementById("idol_description").innerHTML =
+                        "This user is <b>Yuzuru</b> oshi from <b>Ensemble Stars<i>!!</i></b>";
+                </script>
+                <script>
+                    <!--replace YOUR_URL_HERE with the link to your idol's image-->
+                    document.getElementById("oshi").style.backgroundImage = "url('https://file.garden/acMMxqtw6Rf7Qz6n/ab67616100005174db25a5f20ef33835438deea5.png')";
+                </script>
+            </div>
+            <div id='shrine-ring'>
+                <script type="text/javascript" src="https://gekiyaku.org/lovedove/onionring-variables.js"></script>
+                <script type="text/javascript" src="https://gekiyaku.org/lovedove/onionring-widget.js"></script>
+            </div>
+            <div id='fandomring'>
+                <script type="text/javascript" src="https://fandomr.ing/onionring/onionring-variables.js"></script>
+                <script type="text/javascript" src="https://fandomr.ing/onionring/onionring-widget.js"></script>
+            </div>
+        </section>
+    </div>
+    <div class="affiliates">
+        <h2>Affiliates</h2>
+        <section>
+        {{ for button of affiliates.buttons }}
+        <a href="{{ button.url }}" title="{{ button.name }}">
+            {{ if button.src }}
+                <img src="{{ button.src }}" alt="{{ button.name }}">
+
+                {{ else }}
+                {{ button.name }}
+            {{ /if }}
+        </a>
+        {{ /for }}
+        </section>
+    </div>
+</div>

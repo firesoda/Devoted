@@ -1,0 +1,320 @@
+block: discography
+layout: layout/base.vto
+css: ../styles/discography.css
+section_title: Discography
+page_title: Discography
+page_subtitle: A list of releases involving Yuzuru
+cover:
+  url: ../assets/graphics/yuzuru_violin.png
+  alt: Yuzuru Fushimi playing the violin
+main:
+  content:
+    - Welcome to the discography page! This page contains all Ensemble Stars songs featuring Yuzuru Fushimi listed from the newest to oldest. Starting Season 5 (April 2024), Happy Elements has made the decision to cease releasing physical copies of singles. The news was followed with an announcement of the company removing region lock on most Ensemble Stars songs (excluding cover songs, due to copyright), making them available worldwide.
+    - "**Note: This page only lists releases featuring Yuzuru, minus anniversary songs. Single or EP releases will link to the track instead.**"
+discography:
+  - title: MaM VS fine「狂怪ノ怨黙-キョウカイノエンモク-」あんさんぶるスターズ！！World Tour Series
+    romaji: MaM VS fine "Kyoukai No Enmoku" Ensemble Stars!! World Tour Series
+    year: 2026
+    jacket: ../assets/albums/Kyoukai_no_Enmoku_Cover.jpg
+    streaming:
+      - platform: ytmusic
+        icon: youtube
+        url: https://music.youtube.com/watch?v=mKB1rRMkFRc
+      - platform: spotify
+        icon: spotify
+        url: https://open.spotify.com/track/7grGSUYt7FSc75AmjTxWc0
+      - platform: apmusic
+        icon: itunes
+        url: https://music.apple.com/us/song/kyoukai-no-enmoku/6810552462
+    track:
+      - title: 狂怪ノ怨黙-キョウカイノエンモク-
+        romaji: Kyoukai No Enmoku
+        mv:
+          - type: mv
+            url: https://www.youtube.com/watch?v=O51MHo_ih0o
+  - title: fine「RED GARDEN」あんさんぶるスターズ！！ ESアイドルソング season7
+    romaji: fine "RED GARDEN" ENSEMBLE STARS!! ES idol song season7
+    year: 2026
+    jacket: ../assets/albums/RED_GARDEN.jpg
+    streaming:
+      - platform: ytmusic
+        icon: youtube
+        url: https://music.youtube.com/watch?v=mKB1rRMkFRc
+      - platform: spotify
+        icon: spotify
+        url: https://open.spotify.com/track/4YLNOjURobcrz23kbiNlsj
+      - platform: apmusic
+        icon: itunes
+        url: https://music.apple.com/gb/song/red-garden/1893562996
+    track:
+      - title: RED GARDEN
+        mv:
+          - type: mv
+            url: https://www.youtube.com/watch?v=uCk8YQLWzZ0
+  - title: fine「Musica Vita! -ムジカ・ヴィータ-」あんさんぶるスターズ！！ ESアイドルソング season6
+    romaji: fine "Musica Vita!" Ensemble Stars!! ES Idol Song Season 6
+    year: 2026
+    jacket: ../assets/albums/Musica_Vita!_Cover.jpg
+    streaming:
+      - platform: ytmusic
+        icon: youtube
+        url: https://music.youtube.com/watch?v=ScIAO4PnH5g
+      - platform: spotify
+        icon: spotify
+        url: https://open.spotify.com/track/6luj4dLrMoGjlrd930bHsO
+      - platform: apmusic
+        icon: itunes
+        url: https://music.apple.com/gb/song/musica-vita/1861427260
+    track:
+      - title: Musica Vita! -ムジカ・ヴィータ-
+        mv:
+          - type: masterpiece
+            url: https://www.youtube.com/watch?v=4nhA8spqWMI
+          - type: mv
+            url: https://www.youtube.com/watch?v=AB0jePjdmjI
+  - title: 伏見 弓弦「ESCAPE」あんさんぶるスターズ！！ ESアイドルソング Solo -Bright me up!!-
+    romaji: Yuzuru Fushimi "ESCAPE" Ensemble Stars!! ES Idol Song Solo -Bright me up!!-
+    year: 2025
+    jacket: ../assets/albums/Yuzuru_Fushimi_-ESCAPE-_Ensemble_Stars!!_ES_Idol_Song_Solo_-Bright_me_up!!-.jpg
+    streaming:
+      - platform: ytmusic
+        icon: youtube
+        url: https://music.youtube.com/watch?v=-unLAE2vcXo
+      - platform: spotify
+        icon: spotify
+        url: https://open.spotify.com/track/7xEXC32aRjWrLLTGfwto2N
+      - platform: apmusic
+        icon: itunes
+        url: https://music.apple.com/gb/song/escape/1829639209
+    track:
+      - title: ESCAPE
+        mv:
+          - type: mv
+            url: https://www.youtube.com/watch?v=HFze2-gSEco
+  - title: Cascade of…「Graceful Punishment」あんさんぶるスターズ！！ ⁠SELECTION 10 UNIT SONG
+    romaji: Cascade of... "Graceful Punishment" Ensemble Stars!! SELECTION 10 UNIT SONG
+    year: 2025
+    jacket: ../assets/albums/Ensemble_Stars!!_SELECTION_10_UNIT_SONG_-Graceful_Punishment-.jpg
+    streaming:
+      - platform: ytmusic
+        icon: youtube
+        url: https://music.youtube.com/watch?v=D7rq-hhNVn0
+      - platform: spotify
+        icon: spotify
+        url: https://open.spotify.com/track/63zae15sg8CriJSruguGuX
+      - platform: apmusic
+        icon: itunes
+        url: https://music.apple.com/gb/song/graceful-punishment/1815859674
+    track:
+      - title: Graceful Punishment
+        mv:
+          - type: mv
+            url: https://www.youtube.com/watch?v=3yaHpk2RVRo
+  - title: 「YeeeeES! JUKEBOX」あんさんぶるスターズ！！ バラエティソングシリーズ 究極の9曲
+    romaji: "\"YeeeeES! JUKEBOX\" Ensemble Stars!! Variety Song Series Ultimate 9 Songs"
+    year: 2025
+    jacket: ../assets/albums/Ensemble_Stars!!_Variety_Song_Series_Ultimate_9_Songs_-YeeeeES!_JUKEBOX-.jpg
+    streaming:
+      - platform: ytmusic
+        icon: youtube
+        url: https://music.youtube.com/watch?v=50NqS1JvCSc
+      - platform: spotify
+        icon: spotify
+        url: https://open.spotify.com/track/6Yoj7gRWD3AfUuUUrJkBFM
+      - platform: apmusic
+        icon: itunes
+        url: https://music.apple.com/gb/song/yeeeees-jukebox/1789079645
+    track:
+      - title: YeeeeES! JUKEBOX
+  - title: fine「Fairy Tale Library」あんさんぶるスターズ！！ ESアイドルソング season5
+    romaji: fine "Fairy Tale Library" Ensemble Stars!! ES Idol Song Season 5
+    year: 2024
+    jacket: ../assets/albums/Fairy_Tale_Library_Cover.jpg
+    streaming:
+      - platform: ytmusic
+        icon: youtube
+        url: https://music.youtube.com/watch?v=cf1A4g2XvjU
+      - platform: spotify
+        icon: spotify
+        url: https://open.spotify.com/track/1IPJ4i89RPAkg3TyRUrtK5
+      - platform: apmusic
+        icon: itunes
+        url: https://music.apple.com/gb/song/fairy-tale-library/1770458582
+    track:
+      - title: Fairy Tale Library
+        mv: 
+          - type: mv
+            url: https://www.youtube.com/watch?v=__ZQplNBY1A
+  - title: シャッフルユニットソング「喪失寓意 -LOST BALLADE-」
+    romaji: Shuffle Unit Song "Soushitsu Guui -LOST BALLADE-"
+    year: 2024
+    jacket: ../assets/albums/Soushitsu_Guui_-LOST_BALLADE-_Cover.jpg
+    streaming:
+      - platform: ytmusic
+        icon: youtube
+        url: https://music.youtube.com/watch?v=LmI-jhCtdr0
+      - platform: spotify
+        icon: spotify
+        url: https://open.spotify.com/track/6uQgJRvVHunJPkz4T6mb4D
+      - platform: apmusic
+        icon: itunes
+        url: https://music.apple.com/gb/song/%E5%96%AA%E5%A4%B1%E5%AF%93%E6%84%8F-lost-ballade/1758690881
+    track:
+      - title: 喪失寓意 -LOST BALLADE-
+        romaji: Soushitsu Guui -LOST BALLADE- 
+        mv: 
+          - type: mv
+            url: https://www.youtube.com/watch?v=ixvZJIT8eTA
+  - title: あんさんぶるスターズ！！アルバムシリーズ『TRIP』fine
+    romaji: Ensemble Stars!! Album Series Trip fine
+    year: 2023
+    jacket: ../assets/albums/Ensemble_Stars!!_ES_ALBUM_SERIES_fine_TRIP.jpg
+    streaming:
+      - platform: ytmusic
+        icon: youtube
+        url: https://music.youtube.com/playlist?list=OLAK5uy_lBQlIFZW-yjhqPd5_si7VjwAo1e8BAYqM
+      - platform: spotify
+        icon: spotify
+        url: https://open.spotify.com/album/2SNuhzWNGPRSeEYEScL2Do
+      - platform: apmusic
+        icon: itunes
+        url: https://music.apple.com/us/album/%E3%81%82%E3%82%93%E3%81%95%E3%82%93%E3%81%B6%E3%82%8B%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA-%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-trip-fine/1772871768
+    track:
+      - title: Angelic Grace
+        mv:
+          - type: mv
+            icon: youtube
+            url: https://youtu.be/7wlWNStt_Hk
+      - title: Never-ending Stage!!!!
+        mv:
+          - type: mv
+            icon: youtube
+            url: https://youtu.be/G4U9YspbuG0
+      - title: 恋はプリマヴェーラ！
+        romaji: Koi wa Primavera!
+        mv:
+          - type: mv
+            url: https://youtu.be/-S_-dkWWqGs
+      - title: The Tempest Night
+        mv:
+          - type: mv
+            url: https://youtu.be/P9avQ3nUalg
+      - title: Ghostic Treat House
+        mv:
+          - type: mv
+            url: https://youtu.be/R9Dh9RzgmR0
+      - title: Dreaming Ocean
+        mv:
+          - type: mv
+            url: https://youtu.be/HkEhioVU9Aw
+      - title: Feathers of Ark
+        mv:
+          - type: mv
+            url: https://youtu.be/tWQwrmupwxo
+      - title: Welcome back, dear moment
+  - title: あんさんぶるスターズ！！ シャッフルユニットソングコレクション vol.03
+    romaji: Ensemble Stars!! Shuffle Unit Song Collection Vol.03
+    year: 2023
+    jacket: ../assets/albums/Shuffle_Unit_Song_Collection_Vol.03_Cover_5.jpg
+    streaming:
+      - platform: ytmusic
+        icon: youtube
+        url: https://music.youtube.com/watch?v=uMkBmx38vMI
+      - platform: spotify
+        icon: spotify
+        url: https://open.spotify.com/track/4MyT2ZGjB45BE3EZhs285V
+      - platform: apmusic
+        icon: itunes
+        url: https://music.apple.com/gb/song/have-you-been-naughty-or-nice/1779285008
+    track:
+      - title: Have You Been Naughty or Nice?
+        mv: 
+          - type: mv
+            url: https://www.youtube.com/watch?v=Boxqhhgck0w
+  - title: Trickstar ✕ fine 「Crossing×Heart」 あんさんぶるスターズ！！ FUSION UNIT SERIES 04
+    romaji: Trickstar × fine "Crossing×Heart" Ensemble Stars!! FUSION UNIT SERIES 04
+    year: 2021
+    jacket: ../assets/albums/Trickstar_×_fine_-Crossing×Heart-_Ensemble_Stars!!_FUSION_UNIT_SERIES_04.jpg
+    streaming:
+      - platform: ytmusic
+        icon: youtube
+        url: https://music.youtube.com/watch?v=3JcBJgeZH7E
+      - platform: spotify
+        icon: spotify
+        url: https://open.spotify.com/track/4I2DcIXJqKW3DAO0SInWJS
+      - platform: apmusic
+        icon: itunes
+        url: https://music.apple.com/gb/song/crossingxheart/1779286115
+    track:
+      - title: Crossing×Heart
+        mv: 
+          - type: mv
+            url: https://www.youtube.com/watch?v=fwY6A_MmNlQ
+  - title: TVアニメ 『あんさんぶるスターズ！』 EDテーマ集 VOL.03
+    romaji: TV Animation "Ensemble Stars!" ED Theme Collection VOL.03
+    year: 2019
+    jacket: ../assets/albums/Ensemble_Stars!_ED_Collection_Vol.3.jpg
+    streaming:
+      - platform: ytmusic
+        icon: youtube
+        url: https://music.youtube.com/watch?v=c2WIYmfQyGQ
+      - platform: spotify
+        icon: spotify
+        url: https://open.spotify.com/track/56J7dCvuKEAoq2Ek95MipV
+      - platform: apmusic
+        icon: itunes
+        url: https://music.apple.com/gb/song/hajimari-no-fantasia/1778155165
+    track:
+      - title: 始まりのファンタジア
+        romaji: Hajimari no Fantasia
+        mv: 
+          - type: mv
+            url: https://www.youtube.com/watch?v=msy2_Uew8pc
+  - title: あんさんぶるスターズ！ アルバムシリーズ fine
+    romaji: Ensemble Stars!! Album Series fine
+    year: 2019
+    jacket: ../assets/albums/ALBUM_SERIES_PRESENT_-fine-_.jpg
+    streaming:
+      - platform: ytmusic
+        icon: youtube
+        url: https://music.youtube.com/playlist?list=OLAK5uy_kU6dSJdI_5u5uF_yKP4X5sKW0ocBi0JGc
+      - platform: spotify
+        icon: spotify
+        url: https://open.spotify.com/album/4z49lX1K56H1WPOgE12LMl
+      - platform: apmusic
+        icon: itunes
+        url: https://music.apple.com/us/album/%E3%81%82%E3%82%93%E3%81%95%E3%82%93%E3%81%B6%E3%82%8B%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA-%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-fine/1778587901
+    track:
+      - title: 終わらないシンフォニア
+        romaji: Owaranai Symphonia
+        mv:
+          - type: mv
+            icon: youtube
+            url: https://youtu.be/47PVDkCyyeI
+      - title: 羽ばたきのフォルティシモ
+        romaji: Habataki No Fortissimo
+        mv:
+          - type: mv
+            url: https://youtu.be/Kq8tPKrbTL4
+      - title: Neo Sanctuary
+        mv:
+          - type: mv
+            url: https://youtu.be/1u6DYkxkyOc
+      - title: RAINBOW CIRCUS
+        mv:
+          - type: mv
+            url: https://youtu.be/sZzpjGKaIjE
+      - title: Tryst of Stars
+      - title: Holy Angel's Carol
+        mv:
+          - type: mv
+            url: https://youtu.be/pLrfBepCDAE
+      - title: Miracle Dream Traveler
+        mv:
+          - type: mv
+            url: https://youtu.be/8xNLtBXaqy4
+      - title: ずっと そばで…
+        romaji: Zutto Soba De
+
+
+    

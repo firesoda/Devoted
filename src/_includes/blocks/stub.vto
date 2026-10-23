@@ -1,0 +1,14 @@
+<main>
+    {{ include "template/navigation.vto" }}
+    {{ if id }}
+        {{ comp.info(id) }}
+    {{ /if }}
+    <article>
+    {{ content }}
+    </article>
+    {{ if add_comp }}
+        {{ for component of add_comp }}
+            {{ include `template/${component.type}.vto` }}
+        {{ /for }}
+    {{ /if }}
+</main>

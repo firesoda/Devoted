@@ -1,0 +1,96 @@
+@import url(base.css);
+
+nav {
+    h3 {
+        width: 100%;
+        border-bottom: 1px dashed #a8a8a8;
+        margin: 0;
+    }
+
+    ol {
+        padding: 0;
+        display: flex;
+        list-style-type: decimal-leading-zero;
+        list-style-position: inside;
+        justify-content: flex-start;
+        gap: 2%;
+        margin: 1% 0;
+    }
+
+    a {
+        color: #5055b4;
+    }
+
+    section:nth-child(even) {
+        h3 {
+            text-align: right;
+        }
+
+        ol {
+            justify-content: flex-end;
+        }
+    }
+}
+
+h2 {
+    font-family: 'Dancing Script', Georgia, 'Times New Roman', Times, serif;
+    color: #4D507C;
+    filter: drop-shadow(1px 1px 0 #fff) drop-shadow(-1px 1px 0 #fff) drop-shadow(0 -1px 0 #fff) drop-shadow(1px 0 #fff);
+    text-transform: capitalize;
+}
+
+p:has(a.top) {
+    text-align: center;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+
+    img {
+        display: flex;
+        border: 1px solid #4D507C;
+        margin: 1%;
+        padding: 0.5%;
+        background: white;
+
+        &[src*="#left"] {
+            float: left;
+            margin-left: 0;
+        }
+
+        &[src*="#right"] {
+            float: right;
+            margin-right: 0;
+        }
+
+        &[src*="#center"] {
+            margin: 0 auto;
+            max-width: 100%;
+        }
+    }
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.gallery-inner {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(auto-fit, minmax(0, 128px));
+
+    >a {
+        text-decoration: none;
+    }
+}
+
+.notice {
+    background: #F0F7FF;
+    padding: 0.5em 2em;
+
+    p {
+        text-indent: 0;
+    }
+}

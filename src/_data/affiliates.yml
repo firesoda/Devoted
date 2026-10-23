@@ -1,0 +1,42 @@
+buttons:
+  - name: smooth sailing
+    url: https://smoothsailing.asclaria.org/
+    src: assets/buttons/smoothsailing.png
+    type: listing
+  - name: emotion
+    url: https://emotion.oubliette.nu/
+    src: assets/buttons/emotion.png
+    type: listing
+  - name: idolring
+    url: https://idolring.nekoweb.org/
+    src: assets/buttons/idolring.gif
+  - name: beachglass
+    url: https://beachglass.nekoweb.org/
+  - name: champagne
+    url: https://champagne.nekoweb.org
+  - name: mars
+    url: https://mars.nekoweb.org
+    src: assets/buttons/mars.png
+  - name: heart
+    url: https://heart.nekoweb.org/
+  - name: meteor-55
+    url: https://meteor-55.nekoweb.org/
+    src: assets/buttons/meteor55.gif
+  - name: tsune
+    url: https://tsune.nekoweb.org
+  - name: tenshinlight
+    url: https://tenshinlight.nekoweb.org/
+    src: assets/buttons/tenshinlight.png
+  - name: gekiyaku
+    url: https://gekiyaku.org
+    src: assets/buttons/gekiyaku.gif
+  - url: https://electric-tenshi.nekoweb.org/
+    src: assets/buttons/electric-tenshi.gif
+  - url: https://first-sound.moe 
+    src: assets/buttons/first_sound.png
+  - url: https://jenett.nekoweb.org
+    src: assets/buttons/jenett.png
+  - url: https://dokidokiluv.nekoweb.org/
+    src: assets/buttons/dokidokiluv.gif
+  - url: https://fraybury.nekoweb.org/
+    src: assets/buttons/fraybury.gif

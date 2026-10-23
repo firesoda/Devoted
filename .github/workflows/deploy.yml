@@ -1,0 +1,29 @@
+name: Build and Deploy to Nekoweb
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v4
+
+      - name: Setup Deno environment
+        uses: denoland/setup-deno@v2
+        with:
+          cache: true
+
+      - name: Build site
+        run: deno task build
+
+      - name: Deploy to NekoWeb
+        uses: indiefellas/deploy2nekoweb@main
+        with:
+          nekoweb-api-key: ${{ secrets.NEKOWEB_API_KEY }}
+          nekoweb-domain: 'devoted.nekoweb.org'
+          nekoweb-username: 'devoted'
+          directory: '_site'

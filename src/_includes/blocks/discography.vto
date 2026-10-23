@@ -1,0 +1,56 @@
+<main>
+    {{ include "template/navigation.vto" }}
+    <article>
+        {{ for section of main.content }}
+        <section>
+            <p> {{ section |> md(true) }} </p>
+        </section>
+        {{ /for }}
+        <hr>
+        <section class="discography">
+            {{ for release of discography }}
+            <div class="release">
+                <div class="jacket">
+                    <img src="{{ release.jacket }}" alt="{{ release.title }}">
+                </div>
+                <section class="data">
+                    <div class="release-header">
+                        <h3>{{ release.title }}</h3>
+                    <p class="romaji">{{ release.romaji }} ({{ release.year }})</p>
+                    <p>Listen here: {{ for stream of release.streaming }}
+                        <a href="{{ stream.url }}" title="{{ if stream.platform == "ytmusic" }}
+                            {{- "Listen on Youtube Music" -}} 
+                            {{ else if stream.platform == "spotify" }} 
+                            {{- "Listen on Spotify" -}} 
+                            {{ else if stream.platform == "apmusic"}} 
+                            {{- "Listen on Apple Music" -}}
+                            {{ else }}
+                            {{- "Error fetching stream platform" -}}
+                         {{ /if }}">
+                            <i class="fa-brands fa-{{ stream.icon }}"></i>
+                        </a>
+                        {{ /for }}</p>
+                    </div>
+                    <div class="track-list">
+                    <h4>Featured track(s)</h4>
+                    <ol>
+                        {{ for track of release.track }}
+                        <li> {{ track.title }} {{ if track.romaji }}
+                            <i>({{ track.romaji }})</i>
+                        {{ /if }}
+                            {{ for mv of track.mv }}
+                            <a href="{{ mv.url }}" title="{{ mv.type == "masterpiece" ? "Watch Masterpiece MV on Youtube" : "Watch MV on Youtube" }}"
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                            {{ /for }}
+                        </li>
+                        {{ /for }}
+                    </ol>
+                    </div>
+                </section>
+            </div>
+            {{ /for }}
+        </section>
+    </article>
+</main>
+{{ comp.top() }}

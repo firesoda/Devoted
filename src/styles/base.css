@@ -1,0 +1,80 @@
+@import url(fonts.css);
+
+html {
+    background: url(../assets/graphics/grid.png) repeat-x top left/15%, url(../assets/background/groovepaper.png), #F1F6FC;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 50%;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.875em;
+    color: #4D507C;
+}
+
+img#cover {
+    filter: drop-shadow(-8px -8px 0px #6f97ec);
+    mask-image: linear-gradient(to bottom, black 65%, transparent 100%);
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: end;
+    h1 {
+        font-family: 'Dancing Script', Georgia, 'Times New Roman', Times, serif;
+        
+        max-width: 50%;
+        line-height: 0.875em;
+        color: white;
+        font-size: 5em;
+        filter: drop-shadow(1px 1px 0 #4d507c) drop-shadow(-1px 1px 0 #4d507c) drop-shadow(0 -1px 0 #4d507c) drop-shadow(1px 0 #4d507c);
+        text-transform: capitalize;
+        margin-bottom: 2.5%;
+    }
+
+    section {
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 2;
+        z-index: 2;
+    }
+
+    img {
+        grid-column: 2;
+        grid-row: 1 / span 2;
+        z-index: 1;
+        max-height: 500px;
+    }
+
+    p {
+        color: white;
+        font-weight: bold;
+        background: #7095e9;
+        width: fit-content;
+        padding: 0.25em;
+    }
+}
+
+strong,
+em {
+    color: #3E62AD;
+}
+
+hr {
+    border: none;
+    background-image: url(../assets/dividers/ca07-ribbon-line.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30px;
+}
+
+main p {
+    text-indent: 2em;
+    text-align: justify;
+}
+
+a {
+    color: #5055b4;
+}

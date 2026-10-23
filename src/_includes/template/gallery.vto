@@ -1,0 +1,19 @@
+<div class="gallery" transform-images="jpg 128x128@2">
+{{ set thisGallery = gallery }}
+<h2> {{ thisGallery.type }} Gallery</h2>
+{{ if thisGallery.description }}
+  <p> {{ thisGallery.description }} </p>
+{{ /if }}
+<div class="gallery-inner">
+{{ for galleryItem of gallery.content }}
+  <a href="{{ galleryItem.src }}" class="glightbox" data-gallery="{{ thisGallery.type }}-gallery" data-glightbox="title: {{ galleryItem.alt }}">
+    <img src="{{ galleryItem.src }}" alt="{{ galleryItem.alt }}">
+  </a>
+{{ /for }}
+</div>
+</div>
+
+<p><a href="#" class="top">back to top</a></p>
+
+<link rel="stylesheet" href="../styles/glightbox.min.css">
+<script type="module" src="../scripts/lightbox.js"></script>

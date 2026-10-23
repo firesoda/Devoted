@@ -1,0 +1,24 @@
+basename: /
+menu:
+  - title: main
+    item: 
+    - label: index
+      url: /
+    - label: profile
+      url: /profile
+    - label: discography
+      url: /discography
+    - label: performances
+      url: /live
+    - label: meeting Yuzuru
+      url: /history
+    - label: oshikatsu
+      url: /oshikatsu 
+  - title: others
+    item: 
+    - label: the fan
+      url: /webmaster
+    - label: credits
+      url: /credits
+    - label: guestbook
+      url: https://devote.atabook.org/

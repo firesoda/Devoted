@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ if section_title }}
+        {{ section_title }} |
+    {{ /if }} Devoted · A Yuzuru Fushimi shrine</title>
+        <link rel="stylesheet" href="{{ css }}">
+    <link rel="shortcut icon" href="assets/blue3.gif" type="image/x-icon">
+</head>
+<body>
+<header>
+    {{ set img = cover }}
+    <img id="cover" role="presentation" src="{{ img.url }}" alt=" {{ img.alt }}" loading="lazy">
+    <section>
+        <h1>{{ page_title }}</h1>
+        {{ if page_subtitle }}
+            <p>{{ page_subtitle }} </p>
+        {{ /if }}
+    </section>
+</header>
+    {{ include `blocks/${block}.vto` }}
+</body>
+</html>

@@ -1,0 +1,112 @@
+@import url(base.css);
+
+/* header {
+    img {
+        max-width: 100%;
+    }
+} */
+
+nav {
+    h3 {
+        width: 100%;
+        border-bottom: 1px dashed #a8a8a8;
+        margin: 0;
+    }
+
+    ol {
+        padding: 0;
+        display: flex;
+        list-style-type: decimal-leading-zero;
+        list-style-position: inside;
+        justify-content: flex-start;
+        gap: 2%;
+        margin: 1% 0;
+    }
+
+    a {
+        color: #5055b4;
+    }
+
+    section:nth-child(even) {
+        h3 {
+            text-align: right;
+        }
+
+        ol {
+            justify-content: flex-end;
+        }
+    }
+}
+
+h2 {
+    font-family: 'Dancing Script', Georgia, 'Times New Roman', Times, serif;
+    color: #4D507C;
+    filter: drop-shadow(1px 1px 0 #fff) drop-shadow(-1px 1px 0 #fff) drop-shadow(0 -1px 0 #fff) drop-shadow(1px 0 #fff);
+}
+
+.info {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-auto-rows: auto auto;
+    column-gap: 1%;
+    align-items: start;
+    justify-content: center;
+
+    >.id_photo {
+        grid-row: 1 / span 2;
+        grid-column: 1;
+        height: 250px;
+        width: auto;
+
+        img {
+            max-width: inherit;
+            max-height: inherit;
+            height: inherit;
+            width: inherit;
+            object-fit: contain;
+        }
+    }
+
+    table {
+        border-collapse: collapse;
+        td {
+            padding: 0.125em 1em 0.125em 0;
+        }
+    }
+}
+
+p:has(a.top){
+    text-align: center;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    img {
+        display: flex;
+        border: 1px solid #4D507C;
+        margin: 1%;
+        padding: 0.5%;
+        background: white;
+
+        &[src*="#left"] {
+            float: left;
+            margin-left: 0;
+        }
+
+        &[src*="#right"] {
+            float: right;
+            margin-right: 0;
+        }
+
+        &[src*="#center"] {
+            margin: 0 auto;
+            max-width: 100%;
+        }
+    }
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 1%;
+}

@@ -1,0 +1,72 @@
+@import url(base.css);
+
+main {
+    margin-top: -1.5%;
+}
+
+nav {
+    h3 {
+        width: 100%;
+        border-bottom: 1px dashed #a8a8a8;
+        margin: 0;
+    }
+
+    ol {
+        padding: 0;
+        display: flex;
+        list-style-type: decimal-leading-zero;
+        list-style-position: inside;
+        justify-content: flex-start;
+        gap: 2%;
+        margin: 1% 0;
+    }
+
+    a {
+        color: #5055b4;
+    }
+
+    section:nth-child(even) {
+        h3 {
+            text-align: right;
+        }
+
+        ol {
+            justify-content: flex-end;
+        }
+    }
+}
+
+div.wb_af {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.affiliates>section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(88px, 112px));
+    align-items: center;
+    justify-content: center;
+
+    a {
+        text-align: center;
+    }
+}
+
+.notice {
+    background: #F0F7FF;
+    padding: 0.5em 2em;
+
+    p {
+        text-indent: 0;
+    }
+}
+
+figure.sitebutton {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    img {
+        cursor: pointer;
+    }
+}
