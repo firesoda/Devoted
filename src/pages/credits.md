@@ -18,6 +18,8 @@ Yuzuru Fushimi and all Yuzuru assets belong to **Ensemble Stars** and **Happy El
 
 This site is hosted on [Nekoweb](https://nekoweb.org) and uses [Lume](https://lume.land/) static site generator. Therefore, **straight up copying the site from page source is discouraged**. Source code is available on [Github](https://github.com/firesoda/Devoted).
 
+Lightbox is provided by [GLightbox](https://github.com/biati-digital/glightbox).
+
 ## Images
 
 - Assets of Yuzuru Fushimi are obtained from [Ensemble Stars Fandom Wiki](https://ensemble-stars.fandom.com/wiki/The_English_Ensemble_Stars_Wiki). This includes a picture of Koutarou Hashimoto, promotional Enstage pictures of Yutaka Nozaki, Takaki Watanabe, and Yuta Iiyama, and album/single jackets.
